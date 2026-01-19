@@ -120,12 +120,12 @@
 
       <section class="results">
         <div class="view-tabs" id="viewTabs">
-          <button class="tab active" data-view="table" aria-pressed="true">Table</button>
-          <button class="tab" data-view="meter" aria-pressed="false">Meter</button>
+          <button class="tab active" data-view="meter" aria-pressed="true">Meter</button>
+          <button class="tab" data-view="table" aria-pressed="false">Table</button>
           <button class="tab" data-view="database" aria-pressed="false">Database</button>
         </div>
 
-        <section class="panel table-panel" data-view-panel="table">
+        <section class="panel table-panel" data-view-panel="table" hidden>
           <div class="chart-header">
             <div>
               <h2>Numeric output table</h2>
@@ -158,7 +158,7 @@
           </div>
         </section>
 
-        <section class="panel meter-panel" data-view-panel="meter" hidden>
+        <section class="panel meter-panel" data-view-panel="meter">
           <div class="chart-header">
             <div>
               <h2>dBFS meter view</h2>
